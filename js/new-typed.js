@@ -5,7 +5,7 @@
 $('.resource').hide();
 $(function () {
     $(".typed-effect").typed({
-        strings: ["Ok Google... ^2000 Are my roads plowed?"], // ^{number} denotes time in ms to wait
+        strings: ["Ok Google... ^1500 Are my roads plowed?"], // ^{number} denotes time in ms to wait
 
         // typing speed
         typeSpeed: 70,
