@@ -56,10 +56,10 @@ section#hero h1{color: #fff; font-size: 10vw; font-family: 'Varela Round', sans-
 section#hero a.learn-more-button{display: flex; justify-content: center; align-items: center; width: 180px; height: 30px; background: #fff; color: #457fca; font-family: 'Roboto', sans-serif; font-weight: 700; font-size: 21px; padding: 22px; border-radius: 30px; box-shadow: 0px 3px 3px #3a67a2; text-decoration: none; opacity: 0; animation: onLoadAnimationButtonFadeIn 1s 13s 1 ease-in forwards; transition: .2s ease-in-out;}
 section#hero a.learn-more-button:hover{background: #ddd; transform: scale(.95);}
 
-section#info-panel{display: flex; flex-direction: column; justify-content: flex-start; align-items: center; width: 100%; min-height: 100vh; background: rgba(250, 250, 250, .3); padding: 40px 60px;}
+section#info-panel{display: flex; flex-direction: column; justify-content: flex-start; align-items: center; width: 100%; min-height: 100%; background: rgba(250, 250, 250, .3); padding: 40px 60px;}
 section#info-panel h1{color: #fff; font-size: 38px; font-family: 'Varela Round',  sans-serif; text-align: center;}
-section#info-panel .info-container{display: flex; flex-direction: row; flex: 1; max-width: 100%; margin: 40px 0; justify-content: flex-start; align-items: flex-start; flex-wrap: wrap;} 
-section#info-panel .info-container .info-card{background: #fff; display: flex; flex-direction: column; justify-content: flex-start; align-items: center; flex: 1; min-width: 250px; margin: 20px; padding: 40px; border-radius: 5px; color: #4E88C9;}
+section#info-panel .info-container{display: flex; flex-direction: row; flex: 1; max-width: 100%; margin: 40px 0; justify-content: flex-start; align-items: baseline; flex-basis: auto; flex-wrap: wrap;} 
+section#info-panel .info-container .info-card{background: #fff; display: flex; flex-direction: column; justify-content: flex-start; align-items: center; flex: 1; flex-shrink: 0; min-width: 250px; margin: 20px; padding: 40px; border-radius: 5px; color: #4E88C9;}
 section#info-panel .info-container .info-card h2{color: #457fca; font-family: 'Varela Round', sans-serif; font-size: 30px; font-weight: 700; text-align: center; margin-bottom: 20px;}
 section#info-panel .info-container .info-card p{color: #457fca; font-family: 'Roboto', sans-serif; font-size: 16px; line-height: 1.4; font-weight: 500; text-align: left;}
 
